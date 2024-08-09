@@ -1,65 +1,62 @@
-/* Define o estilo geral da página */
-body {
-    font-family: 'Arial', sans-serif;
-    color: #2e2e2e; /* Cor do texto principal */
-    background-color: #eaf5e6; /* Fundo claro com tom de verde */
+/* Reset básico para garantir consistência entre navegadores */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* Estilo do cabeçalho */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
 header {
-    background-color: #4caf50; /* Verde mais intenso */
-    color: white;
+    background-color: #00796b;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    padding: 1.5em 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
-/* Estilo do título principal */
-h1 {
+header h1 {
     margin: 0;
     font-size: 2em;
 }
 
-/* Estilo principal do conteúdo */
 main {
-    padding: 2em;
-    max-width: 900px;
+    padding: 20px;
+    max-width: 800px;
     margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo das seções */
 section {
-    background-color: #ffffff; /* Fundo branco para seções */
-    border: 1px solid #d0e0d6; /* Borda sutil */
-    border-radius: 8px; /* Bordas arredondadas */
-    padding: 1.5em;
-    margin-bottom: 1.5em;
+    margin-bottom: 20px;
 }
 
-/* Estilo dos subtítulos das seções */
-h2 {
-    color: #388e3c; /* Verde escuro */
-    border-bottom: 2px solid #d0e0d6; /* Linha embaixo dos subtítulos */
-    padding-bottom: 0.5em;
-    margin-bottom: 1em;
+section h2 {
+    font-size: 1.5em;
+    color: #00796b;
+    margin-bottom: 10px;
 }
 
-/* Estilo do rodapé */
+section p {
+    margin-bottom: 10px;
+}
+
 footer {
-    background-color: #2e7d32; /* Verde escuro */
-    color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 10px;
+    background-color: #00796b;
+    color: #fff;
     position: fixed;
     width: 100%;
     bottom: 0;
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
-/* Estilo das tags de parágrafo */
-p {
-    line-height: 1.6;
+footer p {
+    margin: 0;
 }
-
