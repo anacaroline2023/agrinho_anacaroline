@@ -1,42 +1,65 @@
+/* Define o estilo geral da página */
 body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f0f9f0;
+    font-family: 'Arial', sans-serif;
+    color: #2e2e2e; /* Cor do texto principal */
+    background-color: #eaf5e6; /* Fundo claro com tom de verde */
     margin: 0;
     padding: 0;
 }
 
+/* Estilo do cabeçalho */
 header {
-    background-color: #006400;
+    background-color: #4caf50; /* Verde mais intenso */
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 1.5em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
+/* Estilo do título principal */
 h1 {
     margin: 0;
+    font-size: 2em;
 }
 
+/* Estilo principal do conteúdo */
 main {
     padding: 2em;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
+/* Estilo das seções */
 section {
-    margin-bottom: 2em;
+    background-color: #ffffff; /* Fundo branco para seções */
+    border: 1px solid #d0e0d6; /* Borda sutil */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 1.5em;
+    margin-bottom: 1.5em;
 }
 
+/* Estilo dos subtítulos das seções */
 h2 {
-    color: #004d00;
+    color: #388e3c; /* Verde escuro */
+    border-bottom: 2px solid #d0e0d6; /* Linha embaixo dos subtítulos */
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
+/* Estilo do rodapé */
 footer {
-    background-color: #003300;
+    background-color: #2e7d32; /* Verde escuro */
     color: white;
     text-align: center;
     padding: 1em 0;
     position: fixed;
     width: 100%;
     bottom: 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
+/* Estilo das tags de parágrafo */
+p {
+    line-height: 1.6;
+}
 
